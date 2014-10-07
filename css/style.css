@@ -1,0 +1,328 @@
+
+body{
+	width: 100%;
+	background-color: #F5F5DC;}
+.container{
+	width: 630px;
+	padding-left: 25%;
+}
+.logocontainer{
+background-color: #008B32;
+border-radius: 10px;
+}
+.firstImgDiv{
+	width: 160px;
+	float: left;
+}
+.secondImgDiv{
+	width: 446px;
+	height: 138px;
+	border-radius: 26px;
+	padding: 10px;
+	margin-left: 165px;
+	margin-right: 0px;
+}
+
+.secondImgDiv img{
+	height: 144px;
+	width: 450px;
+	border-radius: 11px;
+};
+
+#bodyContainer{
+	padding-top: 10px;
+}
+#bodyContainer p{
+	color: #360F0F;
+	font-style: italic;
+	text-align: justify;
+	font-size: 1.1em;
+}
+#bodyContainer h1{
+	color: #999;
+}
+
+.heading{
+	margin: 5px;
+}
+#footer {
+	position:absolute;
+	bottom:0;
+	width:100%;
+	height:60px;   
+	background:#868686;
+}
+
+#footer-nav {
+	border-bottom: 1px solid #4b4b4b;
+	margin: 0 0 12px;
+	padding: 0 0 12px;
+}
+
+#footer-nav li {
+	background: none;
+	border: none;
+	display: inline-block;
+	list-style: none;
+	margin: 0 -3px 0 0;
+}
+
+#footer-nav li a {
+	border-left: 1px solid #484848;
+	font-size: 10px;
+	display: block;
+	padding: 0 15px;
+	text-transform: uppercase;
+}
+
+.space{
+	clear: both;
+	margin: 20px 0 20px 0;
+}
+.hidden{
+	display: none;
+	
+}
+
+.helpText{
+	width: 370px;
+	margin: 4;
+}
+
+#bodyContainer table p{
+	color: #FFF;
+	font-size: 13px;
+	font-style: normal;
+	background-color: #DBAE5D;
+	padding-left: 10px;
+}
+.questionDiv{
+	width: 100px;
+	float: left;
+	margin-left: 30px;
+}
+
+
+.answerDiv input, textarea{
+	background-color: #F5EDED;
+}
+.answerDiv span{
+	color: red ;
+}
+.messageTextArea{
+	margin: 2px;
+	width: 240px;
+	height: 65px;
+}
+.messageTextArea2{
+	margin: 2px;
+	width: 160px;
+	height: 65px;
+}
+#contactUsContainer{
+	background-color: #A5E0B5;
+	width: auto;
+	height: 480px;
+	border-radius: 10px;
+}
+
+.mapDiv{
+	float:right;
+	margin-top:4px;
+}
+
+.mapDiv img{
+	width: 369px;
+	height: 230px;
+	border-radius: 15px;
+}
+
+.tableDiv{
+	float:right;
+	margin-top:4px;
+}
+
+.tableDiv img{
+ 	width: 332px;
+	height: 309px;
+}
+.restaurantName {
+	text-align: center !important;
+	margin: 0px;
+}
+.addressDiv{
+	margin: 50 0 0 4px;
+	width: 250px;
+	float: left;
+	height: 177px;
+}
+.Doublespace{
+	clear: both;
+	margin: 40px 0 40px 0;
+}
+.keepInTouch{
+	margin-left: 30px;
+	color: #BD2650;
+	font-family: cursive;
+	margin-bottom: 5px;
+}
+#submitBtnInContactUs{
+	margin-left: 319px;
+}
+
+/*orderOnline*/
+.menuItemCell{
+	padding: 10px;
+}
+
+.order tr:hover{
+	background-color: #DDD3CE;
+}
+.add {
+	text-align: center;
+	background-color: #A6BEA3;
+	border-radius: 4px;
+}
+
+.order td.add:hover{
+	cursor: hand;
+	background-color: #4F7048;
+	color: #fff;
+	border-radius: 4px;
+}
+
+.order{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	width:332px;
+}
+.order th{
+	text-align: justify;
+	background-color: #ADEEDC;
+	color: #221347;
+}
+.order td 
+{
+	font-size: 1.0em;
+	padding: 3px 0px 2px 0px;
+}
+.tableheader{
+	text-align: justify;
+	color: #04AD34;
+}
+
+#foodOrder{
+	float: left;
+	width: 334px;
+}
+
+.payment{
+	width: 251px;
+	margin-left: 369px;
+	background-color: rgb(247, 247, 247);
+	height: auto;
+}
+
+.payment h2{
+	color: #FD6363;
+}
+#totalOrder{
+	width: 250px;
+}
+#totalOrder th{
+	background-color: #EBEBEB;
+}
+
+.removeItem:hover{
+	cursor: hand;
+	background-color: #770422;
+}
+.removeItem{
+	background-color: #770722;
+	border-radius: 4px;
+	padding: 4px;
+	color: white;
+	font: -webkit-small-control;
+}
+#totalDiv{
+	margin-top: 20px;
+}
+#totalText{
+	color: #FD6363;
+	font: -webkit-control;
+	font-size: 1.3em;
+}
+.total{
+	font-size: 1em;
+	float: right;
+	margin-right: 21px;
+}
+
+.submitOrder{
+	margin-left: 185px;
+	/*margin-top: 88px;*/
+}
+
+/*reservation*/
+#reservationFrom{
+	margin-left: -30px;
+}
+
+.questionSpace{
+	margin-top : 10px;
+}
+
+#submitBtnInReservation{
+	margin-left: 232px;
+}
+
+.errorBlock{
+	border: #FF0000 1px solid;
+}
+.errorSection{
+	display: none;
+}
+#errorContainer{
+		color: red;
+		margin-top: 10px;
+}
+.reservationQuestion{
+	width: 105px;
+	margin: 0px;
+	/*float: left;*/
+	padding-bottom: 4px;
+}
+.reservationAnswer{
+float: right;
+width: 137px;
+margin-top: -20px
+}
+.reservationAnswer input select{
+	width: 100px;
+}
+
+#makePayment{
+	background-color: rgb(38, 201, 38);
+	color: #111;
+	border-radius: 3px;
+}
+#makePayment:hover{
+	color: white;
+	cursor: hand;
+}
+.buttonSubmit{
+	background-color: rgb(38, 201, 38);
+	color: #111;
+	border-radius: 3px;
+	width: 60px;
+	text-align: center;
+}
+
+.buttonSubmit:hover{
+	color: #FFF;
+	cursor: hand;
+}
+
+#errorMessage{
+	color: rgb(231, 29, 29)
+}
+

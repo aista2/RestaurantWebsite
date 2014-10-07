@@ -1,0 +1,133 @@
+<html>
+<head>
+	<title>Khukuri Nepalese Restaurant</title>
+	<link rel="stylesheet" type="text/css" href="../css/navbar.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<script type="text/javascript" src="../js/reservation.js"></script>
+	<script type="text/javascript" src="../js/libs/jquery-1.11.0.min.js"></script>
+</style>
+</head>
+<body>
+	<div class="container">
+		<div class="logoContainer">
+			<div class="firstImgDiv">
+				<img src="../images/logo1.png">
+			</div>
+			<div class="secondImgDiv"> 
+				<img src="../images/logo2.png">
+			</div>
+		</div>
+		<div id="navbar"> 
+			<ul> 
+				<li><a href="../index.html">Home</a></li> 
+				<li><a href="./menu.html">Menu</a></li> 
+				<li><a href="./gallery.html">Gallery</a></li> 
+				<li><a href="./aboutUs.html">About Us</a></li> 
+				<li><a href="./contactUs.html">Contact Us</a></li> 
+				<li><a href="./OnlineOrder.html">Order Online</a></li>
+				<li><a href="#">Reservation</a></li> 
+			</ul> 
+		</div> 
+		<div id="bodyContainer">
+
+			<h1> Reservation </h1>
+			<div id="bodyContainer"> 
+				<p> We look forward to welcoming you to Khukuri Nepalese Restaurant. We serve Dinner every night from 5:30 to 10:00 P.M.
+					We accept major credit cards - American Express, Visa, Master Card, Discover & Diners Club. For further information plesase call us on (972) 255-1717.</p> 
+
+				<span class="errorSection" id="errorContainer">Please enter the required informations.</span>
+					<div class="space"></div>
+					<form id ="reservationFrom" name="reservation" onsubmit="return formValidaton();" method="post">
+						<div class="tableDiv">
+							<img src="../images/table.jpg">
+						</div>
+
+						<div class="questionDiv">
+							<span>First name:</span>
+						</div>
+						<div class="answerDiv">
+							<input type="text" name="FirstName"/>
+							<span class="hidden"> * </span>
+						</div>
+
+						<div class="questionSpace"> </div>
+
+						<div class="questionDiv">
+							<span>Last name:</span>
+						</div>
+						<div class="answerDiv">
+							<input type="text" name="LastName"/>
+							<span class="hidden"> * </span>
+						</div>
+						
+						<div class="questionSpace"> </div>
+
+						<div class="questionDiv">
+							<span>Email:</span>
+						</div>
+
+						<div class="answerDiv">
+							<input type="text" name="Email"/>
+							<span class="hidden"> * </span>
+						</div>
+						
+						<div class="questionSpace"> </div>
+
+						<div class="questionDiv">
+							<span>Date:</span>
+						</div>
+						<div class="answerDiv">
+							<input type="text" name="DateReservation" id="ReservationDate" onclick="return ReservationDatePicker()"/>
+							<span class="hidden"> * </span>
+						</div>
+
+						<div class="questionSpace"> </div>
+
+						<div class="questionDiv">
+							<span>Time:</span>
+						</div>
+						<div class="answerDiv">
+							<select name="Time">
+								<option>5:30 pm</option>
+								<option>6:00 pm</option>
+								<option>6:30 pm</option>
+								<option>7:00 pm</option>
+								<option>7:30 pm</option>
+								<option>8:00 pm</option>
+								<option>8:30 pm</option>
+								<option>9:00 pm</option>
+								<option>10:00 pm</option>
+								<option>11:00 pm</option>
+								<option>11:30 pm</option>
+							</select>
+							<span class="hidden"> * </span>
+						</div>
+
+						<div class="questionSpace"> </div>
+
+						<div class="questionDiv">
+							<span>No. of guest:</span>
+						</div>
+						
+						<div class="answerDiv">
+							<input type="text" name="NoOfGuest"/>
+							<span class="hidden"> * </span>
+						</div>
+						<div class="questionSpace"> </div>
+
+						<div class="questionDiv">
+							<span>Message:</span>
+						</div>
+						<div class="answerDiv">
+							<textarea class="messageTextArea2" name="Message"></textarea>
+							<span class="hidden"> * Please enter the required informations.</span>
+						</div>
+						<div id="submitBtnInReservation">
+							<input class="buttonSubmit" type="submit" value="Submit">
+						</input>
+					</div>
+				</form>
+			</div>
+		</div>
+	</body>
+	</html>

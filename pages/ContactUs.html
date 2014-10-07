@@ -1,0 +1,123 @@
+	<html>
+	<head>
+		<title>Khukuri Nepalese Restaurant</title>
+		<link rel="stylesheet" type="text/css" href="../css/navbar.css">
+		<link rel="stylesheet" type="text/css" href="../css/style.css">
+		<script type="text/javascript" src="../js/contactUs.js"></script>
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="logoContainer">
+			<div class="firstImgDiv">
+				<img src="../images/logo1.png">
+			</div>
+			<div class="secondImgDiv"> 
+				<img src="../images/logo2.png">
+			</div>
+		</div>
+		<div id="navbar"> 
+			<ul> 
+				<li><a href="../index.html">Home</a></li> 
+				<li><a href="./menu.html">Menu</a></li> 
+				<li><a href="./gallery.html">Gallery</a></li> 
+				<li><a href="./aboutUs.html">About Us</a></li> 
+				<li><a href="#">Contact Us</a></li> 
+				<li><a href="./OnlineOrder.html">Order Online</a></li>
+				<li><a href="./reservation.html">Reservation</a></li> 
+			</ul> 
+		</div> 
+		<div id="bodyContainer">
+
+
+			<h1 class="heading">Contact Us</h1 class="heading">
+
+				<div id="contactUsContainer">
+					<div class="addressDiv">
+						<div>
+							<p class="restaurantName">
+								The Khukuri Nepalese Restaurant
+							</p>
+							<p class="restaurantName">
+								3310 W. Rochelle Rd.,
+							</p>
+							<p class="restaurantName">
+								Irving, TX, 75062
+							</p>
+							<p class="restaurantName">
+								75062
+							</p>
+							<p class="restaurantName">
+								Phone: (972) 255-1717
+							</p>
+							<p class="restaurantName">
+								Email: <a href="mailto:admin@ethekhukuri.co.us">info@thekhukuri.co.us</a>
+							</p>
+						</div>
+					</div>
+
+
+					<div class="mapDiv">
+						<img src="../images/map.png">
+					</div>
+
+
+					<div class="space"></div>
+
+					<h2 class="keepInTouch">Let's Keep in touch</h2>
+
+					<form name="contactUs" onsubmit="return formValidaton();" method="post">
+
+						<div class="questionDiv">
+							<span>First name:</span>
+						</div>
+						<div class="answerDiv">
+							<input type="text" name="FirstName"/>
+							<span class="hidden"> * This field is required</span>
+						</div>
+
+						<div class="questionDiv">
+							<span>Last name:</span>
+						</div>
+						<div class="answerDiv">
+							<input type="text" name="LastName"/>
+							<span class="hidden"> * This field is required</span>
+						</div>
+
+						<div class="questionDiv">
+							<span>Email:</span>
+						</div>
+						<div class="answerDiv">
+							<input type="text" name="Email"/>
+							<span class="hidden"> * This field is required</span>
+						</div>
+
+						<div class="questionDiv">
+							<span>Enquery Type:</span>
+						</div>
+
+						<div class="answerDiv">
+							<select>
+								<option value="Enquiry">Enquiry</option>
+								<option value="Feedback">Feedback</option>
+								<option value="Reservation">Reservation</option>
+								<option value="TimeTable">TimeTable</option>
+							</select>
+						</div>
+						<div class="questionDiv">
+							<span>Message:</span>
+						</div>
+						<div class="answerDiv">
+							<textarea class="messageTextArea" name="Message"></textarea>
+							<span class="hidden"> * This field is required</span>
+						</div>
+						<div id="submitBtnInContactUs">
+							<input  class="buttonSubmit"type="submit" value="Submit">
+						</input>
+						</div>
+					</form>
+			</div>
+
+		</div>
+	</body>
+	</html>
